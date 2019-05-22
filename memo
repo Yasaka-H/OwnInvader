@@ -1,0 +1,13 @@
+let t = 61;
+
+handleTicker = function() { 
+    let timeCount = new createjs.Text(t, "24px serif", "black"");
+    stage.addChild(timeCount);
+
+    t = t - 1 / 20;
+    timeCount.text = Math.floor( t );
+    timeCount.x = 550;
+    timeCOunt.y = 100;
+
+    if(t <= 0) gameOver();
+}

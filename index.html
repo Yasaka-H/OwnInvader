@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>INVADER GAME DEMO!!!</title>
+    <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
+</head>
+<body>
+<canvas id="myCanvas" width="960" height="660"></canvas>
+
+<script type="text/javascript">
+    let stage;
+    let scene;
+    let count;
+    let enemyList1;
+    let enemyList2;
+    let enemyList3;
+    let enemyList4;
+    let enemyList5;
+
+    let enemyBullet;
+    let enemyBulletList;
+    let playerBullet;
+    let playerBulletList;
+    let localPoint;
+
+    let titleText;
+    let howToText;
+    let pressSpaceText;
+
+    let player;
+
+    let isPressLeft  = false;
+    let isPressRight = false;
+    let isPressUp    = false;
+    let isPressDown  = false;
+
+    let time;
+    let timeCount;
+    let score;
+    let scoreCount;
+
+    let gameOver;
+    let gameClear;
+
+</script>
+
+<script src="main.js"></script>
+<script src="handleKey.js"></script>
+<script src="gameOver.js"></script>
+<script src="gameClear.js"></script>
+
+
+</body>
+</html>
